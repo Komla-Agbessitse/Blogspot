@@ -1,0 +1,63 @@
+<!Doctype html>
+<html>
+	<head>
+		<title>Blogspot</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="style.css">
+		<script src="app.js"></script>
+	</head>
+	<body>
+		<div class="container">
+		<div class="navbar">
+			<div class="logo">
+				<a href="index.html"><img src="images/blog.png" width="30px"></a>
+			</div>
+			<nav>
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="about.html">About</a></li>	
+					<li><a href="contact.html">Contact</a></li>
+					<li><a href="blog.html">Blog</a></li>
+					<li><a href="signin.html">Signin</a></li>
+				</ul>
+			</nav>
+			<img src="images/blog.png" class="menu-icon" onclick="menutoggle()">	
+		</div>
+		<!--------------featured posts-------------------- -->
+		<div class="featured">
+		<div class="auth">
+		<form action="signin.html" method="post">
+						
+						<h2 class="form-title">Signin</h2>
+						<div>
+						<label>Username</label>
+						<input type="Username" name="Please enter your Username" required>
+						</div>
+						
+						<div>
+						<label>Password</label>
+						<input type="Password" name="Please enter your Password" required>
+						</div>
+						
+					
+						<div>
+						<button type="submit" class="btn">SignIn</button>
+						</div>
+						
+						<p><a href="signup.html">SignUp</a><p>
+
+					</form>
+		</div>
+		</div>
+	
+		<!--------------footer-------------------- -->
+		<div class="footer">
+		<div class="copyright">
+		<h3>Copyright 2024</h3>
+		</div>
+		</div>
+	
+		</div>
+	</body>
+</html>
